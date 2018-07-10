@@ -10,9 +10,12 @@ def breakfast(bfast="frosted flakes")
 end
 
 def lunch(lunchfood="grilled cheese")
-  "I had a #{lunchfood} for lunch"
+  "I had a #{lunchfood} for lunch."
 end
 
+def dinner(dinfood="salmon")
+  "I would like #{dinfood} for dinner."
+end
 
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
@@ -21,7 +24,9 @@ puts snacks("Swedish fish")
 # call your methods here
 puts breakfast("french toast")
 
-puts lunch
+puts lunch("taco")
+
+puts dinner
 
 # Call your methods without any arguments here
 puts snacks("Popcorn")
